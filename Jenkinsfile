@@ -2,7 +2,7 @@ node("master")
 {
     stage("Checkout")
 {  
-    echo "Sample checkput project"
+    echo "Sample checkout project"
 }
     
     stage("Build")
