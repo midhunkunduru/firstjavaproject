@@ -2,7 +2,7 @@ node("master")
 {
     stage("Checkout")
 {  
-    echo "Sample checkout project"
+    sh 'echo $BRANCH_NAME'
 }
     
     stage("Build")
